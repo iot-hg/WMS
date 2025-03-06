@@ -1,1 +1,7 @@
-https://www.arducoding.com/2018/05/arduino-temperature-and-humadity.html
+Original : https://www.arducoding.com/2018/05/arduino-temperature-and-humadity.html
+
+Monitoring Suhu dan Kelembaban Arduino-DHT22. 
+Salah satu sensor suhu yang sering digunakan dalam project Arduino adalah DHT 22 atau AM2302. 
+Sensor ini merupakan salah satu yang memiliki kinerja yang bagus, respon yang cepat, dan anti-interference capabilities. 
+Memiliki ukuran yang kecil tetapi dapat melakukan transmisi sinyal sampai 20 meter membuat DHT 22 dapat diaplikasikan pada berbagai aplikasi pengukuran suhu dan kelembaban. 
+Sensor ini memiliki tingkat stabilitas yang baik dan fitur kalibrasi yang akurat. Koefisien kalibrasi disimpan dalam program memori OTP, jadi jika sensor internal mendeteksi nilai suhu atau kelembaban, maka modul ini menyertakan koefisien dalam perhitungan.
