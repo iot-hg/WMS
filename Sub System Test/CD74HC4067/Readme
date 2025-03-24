@@ -1,0 +1,19 @@
+CD74HC4067 adalah IC multiplexer/demultiplexer analog 16-saluran yang berfungsi seperti saklar rotari, memungkinkan Anda untuk mengarahkan sinyal analog atau digital dari satu input ke salah satu dari 16 output. 
+Berikut adalah detail lebih lanjut:
+Fungsi: IC ini berfungsi sebagai multiplexer (memilih satu dari banyak input) dan demultiplexer (mengarahkan satu input ke salah satu dari banyak output). 
+Kanal: Memiliki 16 saluran analog yang dapat di-switch. 
+Input Alamat: Menggunakan 4 input alamat (A0 hingga A3) untuk memilih saluran. 
+Bidirectional: Switch analognya bersifat dua arah, memungkinkan sinyal mengalir dari input ke output atau sebaliknya. 
+Penggunaan: Berguna untuk menghubungkan banyak sensor atau komponen ke sistem dengan menggunakan sedikit pin, seperti menghubungkan 16 sensor ke sistem dengan hanya 5 pin. 
+Contoh Aplikasi: Dapat digunakan dalam aplikasi seperti:
+Memilih sensor yang akan dibaca oleh ADC (Analog to Digital Converter). 
+Mengendalikan output yang berbeda dengan sinyal yang sama. 
+Membuat saklar digital yang dikontrol secara digital. 
+Spesifikasi:
+Input Sinyal Analog: 16 saluran (C0-C15). 
+Output Sinyal Analog: 1 saluran (DIG). 
+Kontrol Saluran: 4 pin (S0-S3). 
+Switch Bidirectional: Mendukung tegangan antara ground dan VCC. 
+Rendah "On" Resistansi dan "Off" Kebocoran: Meminimalkan distorsi sinyal. 
+Break-Before-Make Switching: Mencegah crosstalk (interferensi antara saluran). 
+Enable Pin: Memutus semua switch ketika diaktifkan (high). 
